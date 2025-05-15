@@ -273,7 +273,7 @@ body {
 	}
 
 	.base__btn:hover {
-		background-image: url('images/icon-arrow.svg');
+		background-image: url('/images/icon-arrow.svg');
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 0.9rem;
