@@ -101,6 +101,83 @@ h6 {
 
 /* general styling */
 
+body {
+	font-family: var(--ff-primary);
+	background-image: var(--gradient-white);
+	background-repeat: repeat;
+	background-position: top;
+	background-size: cover;
+	height: 100vh;
+}
+
+.base__header {
+	padding: 1.8rem 1.6rem;
+}
+
+.base__logo {
+	height: 1.5rem;
+}
+
+.base__hero {
+	margin-top: 3rem;
+	text-align: center;
+}
+
+.hero__title {
+	font-weight: var(--fw-normal);
+	font-size: 2.4rem;
+	color: var(--clr-neutral-red);
+	letter-spacing: 8px;
+	line-height: 3rem;
+	padding-inline: 2rem;
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+.hero__title span {
+	color: var(--clr-primary-red-desaturated);
+	font-weight: var(--fw-lighter);
+}
+
+.hero__text {
+	color: var(--clr-primary-red-desaturated);
+	padding-inline: 1.5rem;
+	font-weight: var(--fw-light);
+	margin-bottom: 2.2rem;
+	font-size: 0.9rem;
+}
+
+.base__form {
+	padding-inline: 1.6rem;
+}
+
+.base__input {
+	border-radius: 30px;
+	border: 1.9px solid var(--clr-primary-red-desaturated);
+	padding: 0.7rem 1rem 0.7rem;
+	width: 90%;
+	color: var(--clr-primary-red-desaturated);
+	font-weight: var(--fw-light);
+	font-size: 0.9rem;
+}
+
+.base__btn {
+	background-image: url('images/icon-arrow.svg'), var(--gradient-red);
+	background-repeat: no-repeat, no-repeat;
+	background-position: center, center;
+	background-size: 0.9rem, cover;
+	padding: 1.45rem;
+	width: 4rem;
+	border-radius: 30px;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	right: 2.2rem;
+	box-shadow: 12px 18px 34px -4px rgba(222, 189, 201, 1);
+}
+
+/* desktop image, reminder for late */
+
 @media (min-width: 1440px) {
 	body {
 		background-image: url('images/bg-pattern-desktop.svg');
