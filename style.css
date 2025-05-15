@@ -177,6 +177,14 @@ body {
 }
 
 @media (min-width: 1440px) {
+	body {
+		background-image: url('/images/bg-pattern-desktop.svg');
+		background-repeat: repeat;
+		background-position: top;
+		background-size: cover;
+		height: 100vh;
+	}
+
 	.base {
 		display: grid;
 		grid-template-columns: 55% 45%;
@@ -249,5 +257,13 @@ body {
 		right: 53.6rem;
 		top: 35rem;
 		box-shadow: 12px 18px 34px -4px rgba(222, 189, 201, 1);
+	}
+
+	.base__btn:hover {
+		background-image: url('images/icon-arrow.svg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 0.9rem;
+		background-color: hsl(0, 71%, 84%);
 	}
 }
