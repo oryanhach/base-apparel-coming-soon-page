@@ -10,17 +10,47 @@
 
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-  We're coming soon
+  <main class="base">
 
-  Hello fellow shoppers! We're currently building our new fashion store.
-  Add your email below to stay up-to-date with announcements and our launch deals.
+    <header class="base__apparel">
+      <img src="images/logo.svg" class="base__logo" alt="Base Apparel logo">
+    </header>
 
-  Email Address
+    <picture class="base__background-img">
+      <source srcset="images/hero-mobile.jpg" class="background-picture" media="(max-width: 370px)">
+      <source srcset="images/hero-desktop.jpg" class="background-picture" media="(min-width: 1440px)">
+      <img src="images/hero-desktop.jpg" alt="picture of a fashionable woman">
+    </picture>
+
+    <section class="base__hero">
+      <h1 class="hero__title">
+        <span>We're</span> coming soon
+      </h1>
+      <p class="hero__text">
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+    </section>
+
+    <form class="base__form">
+      <input type="email" id="email" class="base__input" placeholder="Email Address" required>
+      <button type="submit" class="base__btn"></button>
+    </form>
+
+  </main>
 
 </body>
 
