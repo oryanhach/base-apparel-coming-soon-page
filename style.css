@@ -190,7 +190,7 @@ body {
 	position: absolute;
 }
 
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
 	body {
 		background-image: url('images/bg-pattern-desktop.svg');
 		background-repeat: repeat;
